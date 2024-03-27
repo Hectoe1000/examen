@@ -1,6 +1,6 @@
-click==8.0.3
-Flask==2.0.2
-itsdangerous==2.0.1
-Jinja2==3.0.2
-MarkupSafe==2.0.1
-Werkzeug==2.0.2
+FROM python:3.8-slim-buster
+WORKDIR   /python-docker
+COPY  requirements.txt requirements.txt
+RUN pip3 install -r requirements.txt
+COPY . .
+CMD ["python3","-m","flask","run","--host=0.0.0.0"]
