@@ -24,7 +24,7 @@ def index():
     <body>
         <h2 style="text-align:center">User Profile Card</h2>
         <div class="card">
-            <img src="https://i.pinimg.com/736x/7f/5e/e2/7f5ee2d0620e9698d7b8c696b1e35ed7.jpg" alt="John" style="width:100%">
+            <img src="https://static.fundacion-affinity.org/cdn/farfuture/PVbbIC-0M9y4fPbbCsdvAD8bcjjtbFc0NSP3lRwlWcE/mtime:1643275542/sites/default/files/los-10-sonidos-principales-del-perro.jpg" alt="John" style="width:100%">
             <h1>John Doe</h1>
             <p class="title">CEO & Founder, Example</p>
             <p>Harvard University</p>
